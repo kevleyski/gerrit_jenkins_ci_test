@@ -1,6 +1,6 @@
 name: C/C++ CI
 
-on: [push]
+on: [push,pull_request]
 
 jobs:
   build:
@@ -9,11 +9,12 @@ jobs:
     
     steps:
     - uses: actions/checkout@v2
-    - name: configure
-      run: ./configure
+    - name: cmake
+      run: 
+        mkdir build
+        cd build
+        cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_WITH_COLLISION_SUPPORT=ON -DBUILD_ADVANCED_TESTING=ON
     - name: make
-      run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+      run: 
+        cd build
+        make
