@@ -2,12 +2,10 @@
 #include <algorithm>
 #include <list>
 #include <map>
-#include <priority_queue>
+#include <queue>
 #include <stack>
 #include <string>
 #include <vector>
-
-#include <malloc.h>
 
 using namespace std;
 
@@ -34,13 +32,13 @@ class Foo {
 
 #define SIZE 50000
 
-int hash(int key) {
+int kevs_hash(int key) {
   int r = key % SIZE;
   return r < 0 ? r + SIZE : r;
 }
 
 void insert(int *keys, int *values, int key, int value) {
-  int index = hash(key);
+  int index = kevs_hash(key);
   while (values[index]) {
     index = (index + 1) % SIZE;
   }
@@ -49,7 +47,7 @@ void insert(int *keys, int *values, int key, int value) {
 }
 
 int search(int *keys, int *values, int key) {
-  int index = hash(key);
+  int index = kevs_hash(key);
   while (values[index]) {
     if (keys[index] == key) {
       return values[index];
@@ -100,13 +98,13 @@ int main() {
 
   Foo* foo = new Foo();
 
-  int nums[] = [2, 3, 9, 10];
+  int nums[] = { 2, 3, 9, 10 };
   int retSize = 2;
   int* ret = twoSum(nums, sizeof(nums), 12, &retSize);
   if (ret)
     free(ret);
 
-  cout << "Hello, World!" << foo->sum();
+  cout << "Hello, World! twoSum=" << foo->sum();
 
   delete foo;
 
