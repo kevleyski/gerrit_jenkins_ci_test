@@ -101,8 +101,10 @@ int main() {
   int nums[] = { 2, 3, 9, 10 };
   int retSize = 2;
   int* ret = twoSum(nums, sizeof(nums), 12, &retSize);
-  if (ret)
+  if (ret) {
+    cout << "twoSum=" << ret[0] << "&" << ret[1];
     free(ret);
+  }
 
   cout << "Hello, World! twoSum=" << foo->sum();
 
@@ -119,12 +121,16 @@ int main() {
 
   distros.push("Ubuntu");  //Pushing elements into the stack.
   distros.push("Mint");
+  distros.emplace("Erk");
 
   cout << "Number of distros in the stack are " << distros.size() << endl;
   cout << "Distro on the top is " << distros.top() << endl;
 
   distros.pop();
   cout << "The top of the stack is now " << distros.top() << endl;
+
+  //distros.swap();
+  distros.empty();
 
   /*
   ========
@@ -252,7 +258,7 @@ int main() {
 
   // This will print an unexpected value
   it1++;
-  cout << *it1;
+//  cout << *it1;
 
   cout << "\nmylist now contains:";
   for (it1=mylist.begin(); it1!=mylist.end(); ++it1)
