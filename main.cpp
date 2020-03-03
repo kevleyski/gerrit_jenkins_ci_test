@@ -91,7 +91,14 @@ bool compare_names(struct Person p1, struct Person p2) {
   return p1.name < p2.name;
 }
 
-bool way_to_sort(int i, int j) { return i > j; }
+bool way_to_sort(int i, int j)
+
+{
+
+  return i > j;
+
+}
+
 
 class vectorClass {
 
