@@ -237,7 +237,29 @@ int main_vector() {
   return 0;
 }
 
-// Function to get the missing number
+
+// KJSL Worked example
+// (1 ^ 2 ^ 3 ^ 5 ^ 6) ^ (1 ^ 2 ^ 3 ^ 4 ^ 5 ^ 6) = 4 (4 was missing)
+//
+// XOR range (1..6)
+// 1  0001
+// ^2 0010 = 0011 = 3
+// ^3        0011 = 0000 (0)
+// ^4               0100 = 0100 (4)
+// ^5                      0101 = 0001 (1)
+// ^6                             0110 = 0111 (7)
+
+// XOR input array
+// 1  0001
+// ^2 0010 = 0011 = 3
+// ^3        0011 = 0000 (0)
+// (skipped) ^4
+// ^5               0101 = 0101 (5)
+// ^6                      0110 = 0011 (3)
+
+// Then XOR two results 0011
+//                      0111 = 0100 = 4 (qed)
+
 int getMissingNo(int a[], int n)
 {
   // For xor of all the elements in array
@@ -264,6 +286,23 @@ int main_missing()
   cout << miss;
 }
 
+/* Standard Binary Search function*/
+int binarySearch(int arr[], int low,
+                 int high, int key)
+{
+  if (high < low)
+    return -1;
+
+  int mid = (low + high)/2; /*low + (high - low)/2;*/
+  if (key == arr[mid])
+    return mid;
+
+  if (key > arr[mid])
+    return binarySearch(arr, (mid + 1), high, key);
+
+  // else
+  return binarySearch(arr, low, (mid -1), key);
+}
 
 int main() {
 
