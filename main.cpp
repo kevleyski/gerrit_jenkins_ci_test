@@ -57,7 +57,7 @@ int search(int *keys, int *values, int key) {
   return 0;
 }
 
-int* twoSum(int* nums, int numsSize, int target, int* returnSize){
+int *twoSum(int *nums, int numsSize, int target, int *returnSize) {
   *returnSize = 2;
   int keys[SIZE];
   int values[SIZE] = {0};
@@ -93,14 +93,150 @@ bool compare_names(struct Person p1, struct Person p2) {
 
 bool way_to_sort(int i, int j) { return i > j; }
 
+class vectorClass {
+
+  // arr is the integer pointer
+  // which stores the address of our vector
+  int *arr;
+
+  // capacity is the total storage
+  // capacity of the vector
+  int capacity;
+
+  // current is the number of elements
+  // currently present in the vector
+  int current;
+
+ public:
+  // Default constructor to initialise
+  // an initial capacity of 1 element and
+  // allocating storage using dynamic allocation
+  vectorClass() {
+    arr = new int[1];
+    capacity = 1;
+    current = 0;
+  }
+
+  // Function to add an element at the last
+  void push(int data) {
+
+    // if the number of elements is equal to the capacity,
+    // that means we don't have space
+    // to accommodate more elements.
+    // We need to double the capacity
+    if (current == capacity) {
+      int *temp = new int[2 * capacity];
+
+      // copying old array elements to new array
+      for (int i = 0; i < capacity; i++) {
+        temp[i] = arr[i];
+      }
+
+      // deleting previous array
+      delete[] arr;
+      capacity *= 2;
+      arr = temp;
+    }
+
+    // Inserting data
+    arr[current] = data;
+    current++;
+  }
+
+  // function to add element at any index
+  void push(int data, int index) {
+
+    // if index is equal to capacity then this
+    // function is same as push defined above
+    if (index == capacity)
+      push(data);
+    else
+      arr[index] = data;
+  }
+
+  // function to extract element at any index
+  int get(int index) {
+
+    // if index is within the range
+    if (index < current)
+      return arr[index];
+  }
+
+  // function to delete last element
+  void pop() {
+    current--;
+  }
+
+  // function to get size of the vector
+  int size() {
+    return current;
+  }
+
+  // function to get capacity of the vector
+  int getcapacity() {
+    return capacity;
+  }
+
+  // function to print array elements
+  void print() {
+    for (int i = 0; i < current; i++) {
+      cout << arr[i] << " ";
+    }
+    cout << endl;
+  }
+};
+
+// Driver code
+int main_vector() {
+  vectorClass v;
+  v.push(10);
+  v.push(20);
+  v.push(30);
+  v.push(40);
+  v.push(50);
+
+  cout << "Vector size : "
+       << v.size() << endl;
+  cout << "Vector capacity : "
+       << v.getcapacity() << endl;
+
+  cout << "Vector elements : ";
+  v.print();
+
+  v.push(100, 1);
+
+  cout << "\nAfter updating 1st index"
+       << endl;
+
+  cout << "Vector elements : ";
+  v.print();
+
+  cout << "Element at 1st index : "
+       << v.get(1) << endl;
+
+  v.pop();
+
+  cout << "\nAfter deleting last element"
+       << endl;
+
+  cout << "Vector size : "
+       << v.size() << endl;
+  cout << "Vector capacity : "
+       << v.getcapacity() << endl;
+
+  cout << "Vector elements : ";
+  v.print();
+
+  return 0;
+}
 
 int main() {
 
-  Foo* foo = new Foo();
+  Foo *foo = new Foo();
 
-  int nums[] = { 2, 3, 9, 10 };
+  int nums[] = {2, 3, 9, 10};
   int retSize = 2;
-  int* ret = twoSum(nums, sizeof(nums), 12, &retSize);
+  int *ret = twoSum(nums, sizeof(nums), 12, &retSize);
   if (ret) {
     cout << "twoSum=" << ret[0] << "&" << ret[1];
     free(ret);
@@ -117,7 +253,7 @@ int main() {
   ========
   */
 
-  stack <string> distros; //Create a stack of strings.
+  stack<string> distros; //Create a stack of strings.
 
   distros.push("Ubuntu");  //Pushing elements into the stack.
   distros.push("Mint");
@@ -129,8 +265,16 @@ int main() {
   distros.pop();
   cout << "The top of the stack is now " << distros.top() << endl;
 
-  //distros.swap();
+  stack<string> flip; //Create a stack of strings.
+  flip.push("Flop");  //Pushing elements into the stack.
+
+  distros.swap(flip);
+
+  cout << "The top of the distros stack is now " << distros.top() << endl;
+  cout << "The top of the flip stack is now " << distros.top() << endl;
+
   distros.empty();
+  flip.empty();
 
   /*
   ========
@@ -138,46 +282,48 @@ int main() {
   ========
   */
 
-  vector <int> numbers;
+  vector<int> numbers;
 
-  if (numbers.empty()){ //check if the vector is empty?
+  if (numbers.empty()) { //check if the vector is empty?
     cout << "The vector is empty :(" << endl;
   }
 
-  for(int i=0; i<100; i+=10){ //Add some values to the vector
+  for (int i = 0; i < 100; i += 10) { //Add some values to the vector
     numbers.push_back(i);
   }
 
   cout << "Size of the vector is " << numbers.size() << endl;
 
   // iterating over the vector, declaring the iterator
-  vector <int>::iterator it;
+  vector<int>::iterator it;
 
   cout << "The vector contains: ";
-  for (it=numbers.begin(); it!=numbers.end(); it++) {
+  for (it = numbers.begin(); it != numbers.end(); it++) {
     cout << "  " << *it;
   }
 
   // getting value at particular position
   int position = 5;
-  cout<<"\nVector at position "<<position<<" contains "<<numbers.at(position)<<endl;
+  cout << "\nVector at position " << position << " contains " << numbers.at(position) << endl;
 
   // deleting an element at position
   numbers.erase(numbers.begin() + position);
-  cout<<"Vector at position "<<position<<" contains "<<numbers.at(position)<<endl;
+  cout << "Vector at position " << position << " contains " << numbers.at(position) << endl;
 
   // deleting a range of elements, first two elements
   // NOTE: You may expect elements at 0, 1 and 2 to be deleted
   // but index 2 is not inclusive.
-  numbers.erase(numbers.begin(), numbers.begin()+2);
+  numbers.erase(numbers.begin(), numbers.begin() + 2);
   cout << "The vector contains: ";
-  for (it=numbers.begin(); it!=numbers.end(); it++) {
+  for (it = numbers.begin(); it != numbers.end(); it++) {
     cout << "  " << *it;
   }
 
+  cout << "Max size" << numbers.max_size() << endl;
+
   // Clearing the vector
   numbers.clear();
-  if (numbers.empty()){
+  if (numbers.empty()) {
     cout << "\nThe vector is now empty again :(";
   }
 
@@ -189,23 +335,23 @@ int main() {
   */
 
   // Declaration <key type, value type>
-  map <string, string> companies;
+  map<string, string> companies;
 
   companies["Google"] = "Larry Page";
   companies["Facebook"] = "Mark Zuckerberg";
 
   // insertion can also be done as
-  companies.insert(pair<string, string> ("Xarvis Tech", "xarvis"));
+  companies.insert(pair<string, string>("Xarvis Tech", "xarvis"));
   // or
-  companies.insert(map<string,string>::value_type("Quora", "Adam D'Angelo"));
+  companies.insert(map<string, string>::value_type("Quora", "Adam D'Angelo"));
   // or even
   companies.insert(make_pair(string("Uber"), string("Travis Kalanick")));
 
   // Iterating the map
   map<string, string>::iterator itz;
   cout << "\n\nCompanies and founders" << endl;
-  for (itz=companies.begin(); itz!=companies.end(); itz++){
-    cout << "Company: " << (*itz).first << "\t Founder: " << itz->second <<endl;
+  for (itz = companies.begin(); itz != companies.end(); itz++) {
+    cout << "Company: " << (*itz).first << "\t Founder: " << itz->second << endl;
   }
 
   itz = companies.find("Google");
@@ -227,41 +373,41 @@ int main() {
   ==============
   */
   list<int> mylist;
-  list<int>::iterator it1,it2,itx;
+  list<int>::iterator it1, it2, itx;
 
   // set some values:
-  for (int i=1; i<10; ++i) mylist.push_back(10*i);
+  for (int i = 1; i < 10; ++i) mylist.push_back(10 * i);
 
   // 10 20 30 40 50 60 70 80 90
   it1 = it2 = mylist.begin(); // ^^
-  advance (it2,6);            // ^                 ^
+  advance(it2, 6);            // ^                 ^
   ++it1;                      //    ^              ^
 
-  it1 = mylist.erase (it1);   // 10 30 40 50 60 70 80 90
+  it1 = mylist.erase(it1);   // 10 30 40 50 60 70 80 90
   //    ^           ^
 
-  it2 = mylist.erase (it2);   // 10 30 40 50 60 80 90
+  it2 = mylist.erase(it2);   // 10 30 40 50 60 80 90
   //    ^           ^
 
   ++it1;                      //       ^        ^
   --it2;                      //       ^     ^
 
-  mylist.erase (it1,it2);     // 10 30 60 80 90
+  mylist.erase(it1, it2);     // 10 30 60 80 90
 
   cout << "\nmylist contains:";
-  for (itx=mylist.begin(); itx!=mylist.end(); ++itx)
+  for (itx = mylist.begin(); itx != mylist.end(); ++itx)
     cout << ' ' << *itx;
   cout << '\n';
 
   // NOTE: it1 still points to 40, and 60 is not deleted
-  cout << endl << *it1 << "\t" << *it2 <<endl;
+  cout << endl << *it1 << "\t" << *it2 << endl;
 
   // This will print an unexpected value
   it1++;
 //  cout << *it1;
 
   cout << "\nmylist now contains:";
-  for (it1=mylist.begin(); it1!=mylist.end(); ++it1)
+  for (it1 = mylist.begin(); it1 != mylist.end(); ++it1)
     cout << ' ' << *it1;
   cout << '\n';
 
@@ -272,7 +418,7 @@ int main() {
   */
 
   // Creates a max heap
-  priority_queue <int> pq;
+  priority_queue<int> pq;
 
   // To create a min heap instead, just uncomment the below line
   // priority_queue <int, vector<int>, greater<int> > pq;
@@ -284,8 +430,7 @@ int main() {
   pq.push(20);
 
   // Extracting items from the heap
-  while (!pq.empty())
-  {
+  while (!pq.empty()) {
     cout << pq.top() << " ";
     pq.pop();
   }
@@ -305,14 +450,13 @@ int main() {
   // Initialize a min heap
   // Note: We defined a comparator is_older in the beginning to
   // compare the ages of two person.
-  priority_queue <struct Person, vector<struct Person>, is_older> mh;
+  priority_queue<struct Person, vector<struct Person>, is_older> mh;
   mh.push(p1);
   mh.push(p2);
   mh.push(p3);
 
   // Extracting items from the heap
-  while (!mh.empty())
-  {
+  while (!mh.empty()) {
     struct Person p = mh.top();
     cout << p.name << " ";
     mh.pop();
@@ -330,7 +474,7 @@ int main() {
   // If the above style of initialization doesn't work, use the following one
   static int arr[] = {56, 32, -43, 23, 12, 93, 132, -154};
   int arr_len = sizeof(arr) / sizeof(arr[0]);
-  vector <int> int_vec(arr, arr + arr_len);
+  vector<int> int_vec(arr, arr + arr_len);
 
   cout << endl;
   // Default: sort ascending
@@ -339,24 +483,26 @@ int main() {
   // Do not include the () when you call wayToSort
   // It must be passed as a function pointer or function object
   sort(int_vec.begin(), int_vec.end(), way_to_sort);
-  for (vector <int>::iterator i = int_vec.begin(); i!=int_vec.end(); i++)
+  for (vector<int>::iterator i = int_vec.begin(); i != int_vec.end(); i++)
     cout << *i << " ";
   cout << endl;
 
   // sorting the array
   sort(arr, arr + arr_len);
-  for (int i=0; i < arr_len; i++) {
+  for (int i = 0; i < arr_len; i++) {
     cout << arr[i] << " ";
   }
 
   // Sorting user-defined objects
   static struct Person persons[] = {p1, p2, p3};
-  sort(persons, persons+3, compare_names);
+  sort(persons, persons + 3, compare_names);
 
   // This will printout the names in alphabetical order
-  for (int i=0; i < 3; i++) {
+  for (int i = 0; i < 3; i++) {
     cout << persons[i].name << " ";
   }
+
+  main_vector();
 
   return 0;
 }
