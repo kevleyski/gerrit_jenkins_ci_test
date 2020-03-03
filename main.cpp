@@ -397,7 +397,7 @@ int main() {
   cout << "\nmylist contains:";
   for (itx = mylist.begin(); itx != mylist.end(); ++itx)
     cout << ' ' << *itx;
-  cout << '\n';
+  cout << endl;
 
   // NOTE: it1 still points to 40, and 60 is not deleted
   cout << endl << *it1 << "\t" << *it2 << endl;
@@ -409,7 +409,13 @@ int main() {
   cout << "\nmylist now contains:";
   for (it1 = mylist.begin(); it1 != mylist.end(); ++it1)
     cout << ' ' << *it1;
-  cout << '\n';
+  cout << endl;
+
+  cout << "\nmylist in reverse:";
+  list<int>::reverse_iterator kev1;
+  for (kev1 = mylist.rbegin(); kev1 != mylist.rend(); ++kev1)
+    cout << ' ' << *kev1;
+  cout << endl;
 
   /*
   =======
