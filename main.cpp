@@ -91,14 +91,11 @@ bool compare_names(struct Person p1, struct Person p2) {
   return p1.name < p2.name;
 }
 
-bool way_to_sort(int i, int j)
-
-{
+bool way_to_sort(int i, int j) {
 
   return i > j;
 
 }
-
 
 class vectorClass {
 
@@ -260,8 +257,7 @@ int main_vector() {
 // Then XOR two results 0011
 //                      0111 = 0100 = 4 (qed)
 
-int getMissingNo(int a[], int n)
-{
+int getMissingNo(int a[], int n) {
   // For xor of all the elements in array
   int x1 = a[0];
 
@@ -278,9 +274,8 @@ int getMissingNo(int a[], int n)
 }
 
 // Driver Code
-int main_missing()
-{
-  int arr[] = { 1, 2, 4, 5, 6 };
+int main_missing() {
+  int arr[] = {1, 2, 4, 5, 6};
   int n = sizeof(arr) / sizeof(arr[0]);
   int miss = getMissingNo(arr, n);
   cout << miss;
@@ -288,12 +283,11 @@ int main_missing()
 
 /* Standard Binary Search function*/
 int binarySearch(int arr[], int low,
-                 int high, int key)
-{
+                 int high, int key) {
   if (high < low)
     return -1;
 
-  int mid = (low + high)/2; /*low + (high - low)/2;*/
+  int mid = (low + high) / 2; /*low + (high - low)/2;*/
   if (key == arr[mid])
     return mid;
 
@@ -301,7 +295,27 @@ int binarySearch(int arr[], int low,
     return binarySearch(arr, (mid + 1), high, key);
 
   // else
-  return binarySearch(arr, low, (mid -1), key);
+  return binarySearch(arr, low, (mid - 1), key);
+}
+
+void set_bit(int &num, int pos) {
+  // First step is shift '1', second
+  // step is bitwise OR
+  num |= (1 << pos);
+}
+
+void clear_bit(int &num, int pos) {
+  // Second step is to bitwise and this number with given number
+  num &= (~(1 << pos));
+}
+
+void toggle_bit(int &num, int pos) {
+  num ^= (1 << pos);
+}
+
+bool bit_at_position(int num, int pos) {
+  bool bit = num & (1 << pos);
+  return bit;
 }
 
 int main() {
@@ -393,7 +407,7 @@ int main() {
     cout << "  " << *it;
   }
 
-  cout << "Max size" << numbers.max_size() << endl;
+  cout << endl << "Max size" << numbers.max_size() << endl;
 
   // Clearing the vector
   numbers.clear();
