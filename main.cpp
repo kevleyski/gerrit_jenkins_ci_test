@@ -318,7 +318,7 @@ bool bit_at_position(int num, int pos) {
   return bit;
 }
 
-int main() {
+int main2() {
 
   Foo *foo = new Foo();
 
