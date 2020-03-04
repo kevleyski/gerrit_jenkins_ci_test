@@ -14,18 +14,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77d36961-1c9e-4ac1-9e25-b9e9036446bc" name="Default Changelist" comment="Jenkins trigger test">
-      <change afterPath="$PROJECT_DIR$/kevs2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kevs3.cpp" afterDir="false" />
+    <list default="true" id="77d36961-1c9e-4ac1-9e25-b9e9036446bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kevs4.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kev_cplusplus.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kev_cplusplus.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kev_cplusplus.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kev_cplusplus.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kev_cplusplus.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kev_cplusplus.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/kev_cplusplus.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/kev_cplusplus.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kevs1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/kevs1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kevs3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/kevs3.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583297924276</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Jenkins trigger test">
+      <created>1583301284453</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583301284453</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Jenkins trigger test">
+      <created>1583301330425</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1583301330425</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,21 +200,22 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="937" y="321" key="#xdebugger.XInspectDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1583234386739" />
-    <state x="682" y="343" key="#xdebugger.evaluate" timestamp="1583235115722">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state x="909" y="412" key="#xdebugger.evaluate" timestamp="1583360752448">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="682" y="343" key="#xdebugger.evaluate/0.0.1920.1200@0.0.1920.1200" timestamp="1583235115722" />
+    <state x="909" y="412" key="#xdebugger.evaluate/0.0.2560.1440@0.0.2560.1440" timestamp="1583360752448" />
     <state x="909" y="411" key="#xdebugger.evaluate/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583212087117" />
     <state x="891" y="563" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583301033435">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="891" y="563" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1440@0.0.2560.1440" timestamp="1583301033435" />
     <state x="891" y="563" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583212642171" />
-    <state x="731" y="304" key="CommitChangelistDialog2" timestamp="1583301284250">
+    <state x="731" y="304" key="CommitChangelistDialog2" timestamp="1583301330214">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="548" y="253" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1583236126007" />
-    <state x="731" y="304" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1583301284250" />
+    <state x="731" y="304" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1583301330214" />
     <state x="730" y="303" key="CommitChangelistDialog2/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583216408475" />
     <state width="442" height="389" key="DebuggerActiveHint" timestamp="1583233725384">
       <screen x="0" y="0" width="1920" height="1200" />
@@ -239,29 +247,29 @@
     </state>
     <state width="1358" height="415" key="GridCell.Tab.-1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1583236463614" />
     <state width="2011" height="497" key="GridCell.Tab.-1.right/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583213183190" />
-    <state width="1681" height="288" key="GridCell.Tab.0.bottom" timestamp="1583301222342">
+    <state width="1681" height="288" key="GridCell.Tab.0.bottom" timestamp="1583361024892">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1358" height="415" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1583236463629" />
-    <state width="1681" height="288" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1583301222342" />
+    <state width="1681" height="288" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1583361024892" />
     <state width="2011" height="497" key="GridCell.Tab.0.bottom/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583216934484" />
-    <state width="1681" height="288" key="GridCell.Tab.0.center" timestamp="1583301222342">
+    <state width="1681" height="288" key="GridCell.Tab.0.center" timestamp="1583361024891">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1358" height="415" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1583236463628" />
-    <state width="1681" height="288" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1583301222342" />
+    <state width="1681" height="288" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1583361024891" />
     <state width="2011" height="497" key="GridCell.Tab.0.center/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583216934483" />
-    <state width="1681" height="288" key="GridCell.Tab.0.left" timestamp="1583301222341">
+    <state width="1681" height="288" key="GridCell.Tab.0.left" timestamp="1583361024891">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1358" height="415" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1583236463628" />
-    <state width="1681" height="288" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1583301222341" />
+    <state width="1681" height="288" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1583361024891" />
     <state width="2011" height="497" key="GridCell.Tab.0.left/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583216934483" />
-    <state width="1681" height="288" key="GridCell.Tab.0.right" timestamp="1583301222342">
+    <state width="1681" height="288" key="GridCell.Tab.0.right" timestamp="1583361024891">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1358" height="415" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1583236463629" />
-    <state width="1681" height="288" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1583301222342" />
+    <state width="1681" height="288" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1583361024891" />
     <state width="2011" height="497" key="GridCell.Tab.0.right/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583216934484" />
     <state width="1358" height="415" key="GridCell.Tab.1.bottom" timestamp="1583236453436">
       <screen x="0" y="0" width="1920" height="1200" />
@@ -287,11 +295,11 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="648" y="339" key="SettingsEditor/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583211572703" />
-    <state x="747" y="440" key="Vcs.Push.Dialog.v2" timestamp="1583301285730">
+    <state x="747" y="440" key="Vcs.Push.Dialog.v2" timestamp="1583301331608">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="560" y="367" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1583236128272" />
-    <state x="747" y="440" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1583301285730" />
+    <state x="747" y="440" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1583301331608" />
     <state x="746" y="440" key="Vcs.Push.Dialog.v2/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583216409969" />
     <state x="930" y="624" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583301298833">
       <screen x="0" y="0" width="2560" height="1440" />
@@ -320,6 +328,11 @@
           <url>file://$PROJECT_DIR$/kevs2.cpp</url>
           <line>22</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/kevs4.cpp</url>
+          <line>35</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
