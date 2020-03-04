@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/klambert/workspace/gerrit_jenkins_ci_test/kevs1.cpp">
+			<Option target="kev_cplusplus"/>
+		</Unit>
 		<Unit filename="/Users/klambert/workspace/gerrit_jenkins_ci_test/main.cpp">
 			<Option target="kev_cplusplus"/>
 		</Unit>
