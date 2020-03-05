@@ -282,7 +282,7 @@ int main_missing() {
 }
 
 /* Standard Binary Search function*/
-int binarySearch(int arr[], int low,
+int binarySearch2(int arr[], int low,
                  int high, int key) {
   if (high < low)
     return -1;
@@ -292,10 +292,10 @@ int binarySearch(int arr[], int low,
     return mid;
 
   if (key > arr[mid])
-    return binarySearch(arr, (mid + 1), high, key);
+    return binarySearch2(arr, (mid + 1), high, key);
 
   // else
-  return binarySearch(arr, low, (mid - 1), key);
+  return binarySearch2(arr, low, (mid - 1), key);
 }
 
 void set_bit(int &num, int pos) {

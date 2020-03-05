@@ -52,7 +52,7 @@ int lookup(struct table *t,int key){
   }
   return -1;
 }
-int main(){
+int main_6(){
   struct table *t = createTable(5);
   insert(t,2,3);
   insert(t,5,4);
