@@ -1,4 +1,4 @@
-// atoi(const char*) - base 10 return int (32-bit)
+// Kevs quick atoi(const char*) - base 10 return int (32-bit)
 
 #include "stdlib.h"
 #include "stdio.h"

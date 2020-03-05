@@ -1,3 +1,5 @@
+// Various C++ STL worked examples
+
 #include <iostream>
 #include <algorithm>
 #include <list>

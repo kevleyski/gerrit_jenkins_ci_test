@@ -1,3 +1,5 @@
+// bit smashing
+
 #include <iostream>
 #include <stddef.h> // cstddef.h?
 
