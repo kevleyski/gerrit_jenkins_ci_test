@@ -212,8 +212,7 @@ void inorder(struct node *root)
 
 #define NB_ELEMS 250
 
-/* Drier program to test above function*/
-int main()
+int main_10()
 {
   srandom(time(NULL));
   struct node *root = NULL;
