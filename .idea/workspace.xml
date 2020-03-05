@@ -14,11 +14,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77d36961-1c9e-4ac1-9e25-b9e9036446bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kevs4.cpp" afterDir="false" />
+    <list default="true" id="77d36961-1c9e-4ac1-9e25-b9e9036446bc" name="Default Changelist" comment="Jenkins trigger test">
+      <change afterPath="$PROJECT_DIR$/kevs5.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kevs6.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kevs3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/kevs3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kevs4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/kevs4.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +59,12 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -89,6 +94,8 @@
       <workItem from="1583209603442" duration="598000" />
       <workItem from="1583210525374" duration="1081000" />
       <workItem from="1583211626429" duration="3314000" />
+      <workItem from="1583361210736" duration="2255000" />
+      <workItem from="1583377292818" duration="1139000" />
     </task>
     <task id="LOCAL-00001" summary="Jenkins trigger test">
       <created>1583127118290</created>
@@ -181,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583301330425</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Jenkins trigger test">
+      <created>1583361042399</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1583361042400</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,11 +225,11 @@
     </state>
     <state x="891" y="563" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1440@0.0.2560.1440" timestamp="1583301033435" />
     <state x="891" y="563" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583212642171" />
-    <state x="731" y="304" key="CommitChangelistDialog2" timestamp="1583301330214">
+    <state x="731" y="304" key="CommitChangelistDialog2" timestamp="1583378477198">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="548" y="253" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1583236126007" />
-    <state x="731" y="304" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1583301330214" />
+    <state x="731" y="304" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1583378477198" />
     <state x="730" y="303" key="CommitChangelistDialog2/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583216408475" />
     <state width="442" height="389" key="DebuggerActiveHint" timestamp="1583233725384">
       <screen x="0" y="0" width="1920" height="1200" />
@@ -247,29 +261,29 @@
     </state>
     <state width="1358" height="415" key="GridCell.Tab.-1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1583236463614" />
     <state width="2011" height="497" key="GridCell.Tab.-1.right/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583213183190" />
-    <state width="1681" height="288" key="GridCell.Tab.0.bottom" timestamp="1583361024892">
+    <state width="1681" height="288" key="GridCell.Tab.0.bottom" timestamp="1583378477440">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1358" height="415" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1583236463629" />
-    <state width="1681" height="288" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1583361024892" />
+    <state width="1681" height="288" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1583378477440" />
     <state width="2011" height="497" key="GridCell.Tab.0.bottom/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583216934484" />
-    <state width="1681" height="288" key="GridCell.Tab.0.center" timestamp="1583361024891">
+    <state width="1681" height="288" key="GridCell.Tab.0.center" timestamp="1583378477439">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1358" height="415" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1583236463628" />
-    <state width="1681" height="288" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1583361024891" />
+    <state width="1681" height="288" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1583378477439" />
     <state width="2011" height="497" key="GridCell.Tab.0.center/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583216934483" />
-    <state width="1681" height="288" key="GridCell.Tab.0.left" timestamp="1583361024891">
+    <state width="1681" height="288" key="GridCell.Tab.0.left" timestamp="1583378477439">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1358" height="415" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1583236463628" />
-    <state width="1681" height="288" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1583361024891" />
+    <state width="1681" height="288" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1583378477439" />
     <state width="2011" height="497" key="GridCell.Tab.0.left/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583216934483" />
-    <state width="1681" height="288" key="GridCell.Tab.0.right" timestamp="1583361024891">
+    <state width="1681" height="288" key="GridCell.Tab.0.right" timestamp="1583378477440">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1358" height="415" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1583236463629" />
-    <state width="1681" height="288" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1583361024891" />
+    <state width="1681" height="288" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1583378477440" />
     <state width="2011" height="497" key="GridCell.Tab.0.right/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583216934484" />
     <state width="1358" height="415" key="GridCell.Tab.1.bottom" timestamp="1583236453436">
       <screen x="0" y="0" width="1920" height="1200" />
@@ -291,15 +305,16 @@
     </state>
     <state width="1358" height="415" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1583236453436" />
     <state width="2011" height="319" key="GridCell.Tab.1.right/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583212961119" />
-    <state x="648" y="339" key="SettingsEditor" timestamp="1583211572703">
+    <state x="648" y="339" key="SettingsEditor" timestamp="1583361115500">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state x="648" y="339" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1583361115500" />
     <state x="648" y="339" key="SettingsEditor/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583211572703" />
-    <state x="747" y="440" key="Vcs.Push.Dialog.v2" timestamp="1583301331608">
+    <state x="747" y="440" key="Vcs.Push.Dialog.v2" timestamp="1583361044106">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="560" y="367" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1583236128272" />
-    <state x="747" y="440" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1583301331608" />
+    <state x="747" y="440" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1583361044106" />
     <state x="746" y="440" key="Vcs.Push.Dialog.v2/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583216409969" />
     <state x="930" y="624" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583301298833">
       <screen x="0" y="0" width="2560" height="1440" />
@@ -328,11 +343,6 @@
           <url>file://$PROJECT_DIR$/kevs2.cpp</url>
           <line>22</line>
           <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/kevs4.cpp</url>
-          <line>35</line>
-          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

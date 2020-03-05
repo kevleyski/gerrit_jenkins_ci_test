@@ -52,7 +52,7 @@ int atoi(const char* in)
   return atoi_s((uint8_t*)in, strlen(in));
 }
 
-int main(int argc, char *argv[]) {
+int main_4(int argc, char *argv[]) {
   // Test
   int out = atoi("-42");
 
