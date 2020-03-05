@@ -1,8 +1,10 @@
+// This is kevs code BTW
+
 #include <stddef.h>
 #include <stdio.h>
 
 int bsearch(int* array, int* left, int* right, int lookfor) {
-  int* pivot = left + ((right - left) / 2);	// << 1
+  int* pivot = left + ((right - left) >> 1);
 
   if ((right < left) || (left > right)) {
     return -1;  // not in array
