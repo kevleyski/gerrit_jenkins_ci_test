@@ -1,4 +1,4 @@
-// Binary tree
+// Binary tree - B-tree is balanced making it better for persistent storage vs RAM (also look up is generally faster)
 
 #include <stddef.h>
 #include <stdio.h>
@@ -74,7 +74,7 @@ node *search(node **tree, int val) {
   }
 }
 
-int main() {
+int main_9() {
   node *root;
   node *tmp;
   //int i;
