@@ -17,7 +17,7 @@ int bsearch(int* array, int* left, int* right, int lookfor) {
   return bsearch(array, left, pivot - 1, lookfor);
 }
 
-int main(int arc, char* argv[]) {
+int main_8(int arc, char* argv[]) {
 
   // search in
   int array[] = { 1, 2, 3, 4, 10, 22, 77, 922, 1024 };

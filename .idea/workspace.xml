@@ -15,9 +15,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77d36961-1c9e-4ac1-9e25-b9e9036446bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kevs9.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kevs8.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/kevs8.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kevs9.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/kevs9.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -93,6 +94,7 @@
       <workItem from="1583211626429" duration="3314000" />
       <workItem from="1583361210736" duration="2255000" />
       <workItem from="1583377292818" duration="6334000" />
+      <workItem from="1583439436219" duration="573000" />
     </task>
     <task id="LOCAL-00001" summary="Jenkins trigger test">
       <created>1583127118290</created>
@@ -280,28 +282,28 @@
     </state>
     <state width="1358" height="415" key="GridCell.Tab.-1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1583236463614" />
     <state width="2011" height="497" key="GridCell.Tab.-1.right/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583213183190" />
-    <state width="2089" height="372" key="GridCell.Tab.0.bottom" timestamp="1583386397453">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1358" height="271" key="GridCell.Tab.0.bottom" timestamp="1583441848182">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1358" height="415" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1583236463629" />
+    <state width="1358" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1583441848182" />
     <state width="2089" height="372" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1583386397453" />
     <state width="2011" height="497" key="GridCell.Tab.0.bottom/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583216934484" />
-    <state width="2089" height="372" key="GridCell.Tab.0.center" timestamp="1583386397452">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1358" height="271" key="GridCell.Tab.0.center" timestamp="1583441848181">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1358" height="415" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1583236463628" />
+    <state width="1358" height="271" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1583441848181" />
     <state width="2089" height="372" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1583386397452" />
     <state width="2011" height="497" key="GridCell.Tab.0.center/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583216934483" />
-    <state width="2089" height="372" key="GridCell.Tab.0.left" timestamp="1583386397452">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1358" height="271" key="GridCell.Tab.0.left" timestamp="1583441848180">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1358" height="415" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1583236463628" />
+    <state width="1358" height="271" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1583441848178" />
     <state width="2089" height="372" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1583386397452" />
     <state width="2011" height="497" key="GridCell.Tab.0.left/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583216934483" />
-    <state width="2089" height="372" key="GridCell.Tab.0.right" timestamp="1583386397453">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1358" height="271" key="GridCell.Tab.0.right" timestamp="1583441848182">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1358" height="415" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1583236463629" />
+    <state width="1358" height="271" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1583441848182" />
     <state width="2089" height="372" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1583386397453" />
     <state width="2011" height="497" key="GridCell.Tab.0.right/2560.-52.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1583216934484" />
     <state width="1358" height="415" key="GridCell.Tab.1.bottom" timestamp="1583236453436">
@@ -386,6 +388,11 @@
           <url>file://$PROJECT_DIR$/kevs7.cpp</url>
           <line>4</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/kevs8.cpp</url>
+          <line>2</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
